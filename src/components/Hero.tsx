@@ -31,12 +31,12 @@ const Hero = () => {
             </Button>
             <Button variant="heroOutline" size="lg" asChild>
               <a href="https://github.com/leela7696" target="_blank" rel="noopener noreferrer">
-                <Github size={18} />
+                <Github size={18} /> GitHub
               </a>
             </Button>
             <Button variant="heroOutline" size="lg" asChild>
               <a href="https://www.linkedin.com/in/sunduleelakrishna/" target="_blank" rel="noopener noreferrer">
-                <Linkedin size={18} />
+                <Linkedin size={18} /> LinkedIn
               </a>
             </Button>
           </div>
