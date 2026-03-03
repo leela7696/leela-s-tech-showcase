@@ -30,12 +30,12 @@ const Hero = () => {
               <Download className="mr-2" size={18} /> Download Resume
             </Button>
             <Button variant="heroOutline" size="lg" asChild>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/leela7696" target="_blank" rel="noopener noreferrer">
                 <Github size={18} />
               </a>
             </Button>
             <Button variant="heroOutline" size="lg" asChild>
-              <a href="https://linkedin.com/in/sundu-leela-krishna" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/sunduleelakrishna/" target="_blank" rel="noopener noreferrer">
                 <Linkedin size={18} />
               </a>
             </Button>

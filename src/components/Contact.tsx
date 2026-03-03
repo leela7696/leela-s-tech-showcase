@@ -37,8 +37,8 @@ const Contact = () => {
               {[
                 { icon: Mail, label: "leela7696@gmail.com", href: "mailto:leela7696@gmail.com" },
                 { icon: Phone, label: "+91 6309515519", href: "tel:+916309515519" },
-                { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com/in/sundu-leela-krishna" },
-                { icon: Github, label: "GitHub", href: "https://github.com" },
+                { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/sunduleelakrishna/" },
+                { icon: Github, label: "GitHub", href: "https://github.com/leela7696" },
               ].map((item) => (
                 <a
                   key={item.label}
@@ -53,6 +53,18 @@ const Contact = () => {
                   {item.label}
                 </a>
               ))}
+            </div>
+            <div className="flex flex-wrap gap-3 pt-2">
+              <Button variant="heroOutline" size="lg" asChild>
+                <a href="https://www.linkedin.com/in/sunduleelakrishna/" target="_blank" rel="noopener noreferrer">
+                  <Linkedin size={18} /> LinkedIn
+                </a>
+              </Button>
+              <Button variant="heroOutline" size="lg" asChild>
+                <a href="https://github.com/leela7696" target="_blank" rel="noopener noreferrer">
+                  <Github size={18} /> GitHub
+                </a>
+              </Button>
             </div>
           </div>
 
