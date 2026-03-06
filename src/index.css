@@ -64,6 +64,18 @@
   }
 }
 
+@layer components {
+  .cursor-follower {
+    pointer-events: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .cursor-follower {
+    display: none !important;
+  }
+}
+
 @layer utilities {
   .text-gradient {
     @apply bg-clip-text text-transparent;
