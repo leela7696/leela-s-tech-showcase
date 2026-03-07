@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Github, Linkedin, Mail, Instagram, Facebook } from "lucide-react";
 
 const Footer = () => (
   <footer className="border-t border-border py-8 px-4">
@@ -8,8 +8,10 @@ const Footer = () => (
       </p>
       <div className="flex items-center gap-4">
         {[
-          { icon: Github, href: "https://github.com" },
+          { icon: Github, href: "https://github.com/leela7696" },
           { icon: Linkedin, href: "https://www.linkedin.com/in/sunduleelakrishna/" },
+          { icon: Instagram, href: "https://www.instagram.com/" },
+          { icon: Facebook, href: "https://www.facebook.com/" },
           { icon: Mail, href: "mailto:leela7696@gmail.com" },
         ].map((item) => (
           <a

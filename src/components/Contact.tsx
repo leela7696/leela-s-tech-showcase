@@ -1,6 +1,6 @@
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import { Button } from "@/components/ui/button";
-import { Mail, Phone, Linkedin, Github, Send } from "lucide-react";
+import { Mail, Phone, Linkedin, Github, Send, Instagram, Facebook } from "lucide-react";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
 import { supabase } from "@/integrations/supabase/client";
@@ -84,6 +84,8 @@ const Contact = () => {
                 { icon: Phone, label: "+91 6309515519", href: "tel:+916309515519" },
                 { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/sunduleelakrishna/" },
                 { icon: Github, label: "GitHub", href: "https://github.com/leela7696" },
+                { icon: Instagram, label: "Instagram", href: "https://www.instagram.com/leela_krishna_sundu/" },
+                { icon: Facebook, label: "Facebook", href: "https://www.facebook.com/profile.php?id=61587930080842" },
               ].map((item) => (
                 <a
                   key={item.label}
@@ -108,6 +110,16 @@ const Contact = () => {
               <Button variant="heroOutline" size="lg" asChild>
                 <a href="https://github.com/leela7696" target="_blank" rel="noopener noreferrer">
                   <Github size={18} /> GitHub
+                </a>
+              </Button>
+              <Button variant="heroOutline" size="lg" asChild>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                  <Instagram size={18} /> Instagram
+                </a>
+              </Button>
+              <Button variant="heroOutline" size="lg" asChild>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                  <Facebook size={18} /> Facebook
                 </a>
               </Button>
             </div>

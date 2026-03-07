@@ -44,16 +44,16 @@ const Hero = () => {
 
         {/* Image */}
         <div className="order-1 md:order-2 flex justify-center animate-fade-up" style={{ animationDelay: "0.3s" }}>
-          <div className="relative">
-            <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary/30 animate-pulse-glow">
+          <div className="relative group" data-interactive="true">
+            <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary/30 animate-pulse-glow transition-transform duration-300 ease-out group-hover:scale-105 group-hover:rotate-1">
               <img
                 src={profileImg}
                 alt="Sundu Leela Krishna"
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="absolute -inset-4 rounded-full border border-primary/10 -z-10" />
-            <div className="absolute -inset-8 rounded-full border border-primary/5 -z-10" />
+            <div className="absolute -inset-4 rounded-full border border-primary/10 -z-10 transition-opacity duration-300 ease-out group-hover:opacity-70" />
+            <div className="absolute -inset-8 rounded-full border border-primary/5 -z-10 transition-opacity duration-300 ease-out group-hover:opacity-60" />
           </div>
         </div>
       </div>
